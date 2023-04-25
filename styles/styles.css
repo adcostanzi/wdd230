@@ -27,10 +27,12 @@ header h1 {
   color: white;
   letter-spacing: 0.1rem;
   text-shadow: 2px 2px black;
+  font-family: 'Inter', sans-serif;
 }
 
 main {
   margin: 2rem auto;
+  font-family: 'Catamaran', sans-serif;
 }
 
 main h2 {
