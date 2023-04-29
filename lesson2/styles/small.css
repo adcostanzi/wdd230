@@ -1,68 +1,66 @@
 body {
-    max-width: 85%;
-    margin: 0 auto;
-    
+  max-width: 85%;
+  margin: 0 auto;
 }
 
 header {
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    background-color: #3030ca;
-    color: rgb(240, 248, 255);
-    padding: 2em;
-    border-radius: 1em;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  background-color: #3030ca;
+  color: rgb(240, 248, 255);
+  padding: 2em;
+  border-radius: 1em;
 }
 
 main {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 5px;
-    margin: 10px;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 1.2em;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 5px;
+  margin: 10px;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.2em;
 }
 
-
 section {
-    border: black solid 3px;
-    text-align: center;
-    background-color: beige;
-    margin: 1.5em 0.5em;
+  border: black solid 3px;
+  text-align: center;
+  background-color: beige;
+  margin: 1.5em 0.5em;
+}
+
+section:nth-child(3) {
+  grid-column: span 1;
 }
 
 section h3 {
-    background-color: rgb(48, 48, 202);
-    color: rgb(240, 248, 255);
-    padding: 1.5em;
-    margin: 0;
-
+  background-color: rgb(48, 48, 202);
+  color: rgb(240, 248, 255);
+  padding: 1.5em;
+  margin: 0;
 }
 
 .title {
-    font-size: 1.2em;
-    margin-top: 1.2em;
+  font-size: 1.2em;
+  margin-top: 1.2em;
 }
 
 section p {
-    margin: 1.5em 0.5em;
+  margin: 1.5em 0.5em;
 }
 
 section img {
-    width: 80%;
-    border: grey solid 1px;
-    margin-top: 2em;
+  width: 80%;
+  height: auto;
+  border: grey solid 1px;
+  margin-top: 2em;
 }
 
 footer {
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    background-color: rgb(48, 48, 202);
-    color: rgb(240, 248, 255);
-    padding: 2em;
-    border-radius: 1em;
-    font-size: 1.2rem;
-    
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  background-color: rgb(48, 48, 202);
+  color: rgb(240, 248, 255);
+  padding: 2em;
+  border-radius: 1em;
+  font-size: 1.2rem;
 }
-
-
-  

@@ -4,7 +4,7 @@ body {
   font-family: "Helvetica";
 }
 
-header div {
+header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -66,3 +66,5 @@ footer {
 #last-update {
   color: yellow;
 }
+
+
