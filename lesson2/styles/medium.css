@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 37.5em) and (max-width: 59.9em) {
   main {
     grid-template-columns: repeat(2,1fr);
   }
@@ -6,9 +6,13 @@
   
   section:nth-child(3) {
     grid-column: span 2;
-    display: block;
   }
   
+  section:nth-child(3) img {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+  }
   h1 {
     font-size: 50px;
   }

@@ -7,6 +7,14 @@
     grid-column: span 1;
   }
 
+  section img {
+    width: 80%;
+    height: auto;
+    border: grey solid 1px;
+    margin: 20px auto;
+    display: block;
+  }
+  
   h1 {
     font-size: 50px;
   }
