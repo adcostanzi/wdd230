@@ -1,0 +1,18 @@
+@media screen and (min-width: 55em) {
+  nav a {
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  footer {
+    font-size: 1.4em;
+  }
+
+}
