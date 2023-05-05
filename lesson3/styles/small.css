@@ -46,7 +46,6 @@ h4 {
 li {
     color: black;
     line-height: 1.6;
-    letter-spacing: 80%; 
     font-size: 1.3em;
 }
 
@@ -54,7 +53,6 @@ li {
 p {
   color: black;
   line-height: 1.6;
-  letter-spacing: 80%;
   font-size: 1.3em;
   padding: 0.7em;
 }
