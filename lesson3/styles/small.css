@@ -61,6 +61,10 @@ p {
     text-align: left;
 }
 
+.description h3 {
+  text-align: center;
+}
+
 
 .persona {
     text-align: left;
