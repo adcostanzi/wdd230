@@ -70,6 +70,9 @@ p {
     text-align: left;
 }
 
+.persona h3 {
+  text-align: center;
+}
 .persona-list ul li{
     font-size: 1em;
 }
