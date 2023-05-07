@@ -70,9 +70,11 @@ p {
     text-align: left;
 }
 
-.persona-list {
-    list-style-type: disc;
+.persona-list ul li{
+    font-size: 1em;
 }
+
+
 
 header {
   background-color: white;
