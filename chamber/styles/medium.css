@@ -1,5 +1,17 @@
 @media only screen and (min-width:37.5em){
 
+
+
+#social {
+    display: grid;
+    grid-template-columns: 90% 5% 5%;
+}
+
+#date {
+    text-align: left;
+    padding-left: 20px;
+}
+
 /*-------------- Main CSS --------------*/
 
 main {

@@ -29,9 +29,8 @@
   }
 
   #social {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 90% 2.5% 2.5% 5%;
   }
 
   #menu {
@@ -39,12 +38,12 @@
     justify-content: space-evenly;
   }
 
+
   #social a {
     margin: 0;
     padding: 0;
     height: 32px;
   }
-
 
   nav a {
     padding: 0.3em 3em;
@@ -99,11 +98,9 @@
     font-size: 1.3em;
   }
 
-    
-.contact-info {
+  .contact-info {
     flex-direction: row;
     column-gap: 0em;
     font-size: 1.4em;
   }
-
 }

@@ -154,17 +154,21 @@ body {
 #social a{
   display: inline-block;
   height: 32px;
+  width: 32px;
   margin: 0;
   padding: 0;
 }
 
 #social span {
-  margin: 0 1em;
+  margin: 0;
 }
 
 #social {
   background-color: rgba(0, 128, 128, 0.5);
   padding: 0.5em;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 80% 10% 10%;
 }
 
 #social a:hover{
