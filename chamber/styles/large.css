@@ -1,4 +1,4 @@
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 960px) {
   .title-container {
     display: grid;
     grid-template-rows: 1fr;
@@ -30,7 +30,7 @@
 
   #social {
     display: grid;
-    grid-template-columns: 90% 2.5% 2.5% 5%;
+    grid-template-columns: 90% 3% 3% 4%;
   }
 
   #menu {
