@@ -2,7 +2,6 @@
   .title-container {
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1 fr 1 fr;
     align-items: center;
     text-align: center;
     justify-content: center;
