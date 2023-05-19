@@ -64,6 +64,12 @@
     bottom: 20%;
   }
   
+  .button-link {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1.5em 2em;
+
+  }
 
 
   .title-big {

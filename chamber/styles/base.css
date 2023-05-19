@@ -240,6 +240,7 @@ main div {
   font-size: 1.3em;
   color: black;
   text-shadow: 2px 2px white;
+  width: 60%;
 }
 
 #call-to-action {
@@ -252,7 +253,7 @@ main div {
 .button-link {
   border: 2px solid black;
   border-radius: 20px;
-  padding: 0.5em 3em;
+  padding: 0.2em 1em;
   background-color: var(--secondary);
   color: black;
   text-decoration: none;
