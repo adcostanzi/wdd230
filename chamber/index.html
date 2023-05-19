@@ -16,6 +16,10 @@
     <title>Winniper Chamber of Commerce</title>
 </head>
 <body>
+    <div class="banner">
+        <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+        <button id="close-button"><span>❌</span></button>
+    </div>
     <header>
         <div class="title-container">
             <img src="images/wcc-logo-medium.png" alt="Winnipeg chamber of commerce logo">
@@ -41,77 +45,59 @@
     </header>
     <main>
         <div class="hero-image">
-            <span>Hero image and call to action</span>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <picture>
+                <source media="(min-width:960px)" srcset="images/hero-image-big.jpg"> 
+                <img src="images/hero-image-medium.jpg" alt="business buildings picture">
+            </picture>
+            <h2 id="title-absolute">Welcome to the Winnipeg Chamber of Commerce</h2>
+            <div class="button-wrapper">
+                <a class="button-link" id="call-to-action" href="#">Join us</a>
+            </div>
         </div>
         <div class="event">
-            <span>Event</span>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <span class="title">PROTECTING YOUR BUSINESS FROM CYBER ATTACKS</span>
+            <p>Come join us on Thursday at 1:00pm</p>
+            <a class="link-low-profile" href="#">SEE DETAILS</a>
         </div>
         <div class="weather">
-            <span>Weather</span>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <span class="title">Weather</span>
+            <img src="images/weather-small.png" alt="weather picture">
+            <span>Temperature: 50 Celsius<br>Wind: SE</span>
         </div>
         <div class="news">
-            <span>News</span>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <span class="title">News Release</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                 mollit anim id est laborum.</p>
         </div>
         <div class="join">
-            <span>Join</span>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <span class="title-big">Join the Chamber for Business Sucess!</span>
+            <a class="button-link" href="#">Join us</a>
         </div>
         <div class="spotlights">
             <div class="spotlight">
-                <span>Spotlight 1</span>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+                <span class="title">Proud Member</span>
+                <img src="images/spotlight-pic-1.png" alt="vita health business logo">
+                <span>info@myvita.ca</span>
+                <span>(204) 555-2555</span>
+                <a class="link-low-profile" href="https://myvita.ca/?utm_source=loknow&utm_medium=search&gad=1&gclid=Cj0KCQjwmZejBhC_ARIsAGhCqncoy6U-JNiVSOqVh3O2nJOfRf4RAUDAIxO3wDo97qHkqdnQsJ_QSm8aAhV-EALw_wcB&gclsrc=aw.ds">Website</a>
             </div>
             <div class="spotlight">
-                <span>Spotlight 2</span>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+                <span class="title">Proud Member</span>
+                <img src="images/spotlight-pic-2.png" alt="maxim transportation business logo">
+                <span>info@maxim.ca</span>
+                <span>(204) 790-6599</span>
+                <a class="link-low-profile" href="#">Website</a>
             </div>
-            <div class="hidden-spotlight">
-                <span>Spotlight 3</span>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+            <div class="spotlight" id="hidden-spotlight">
+                <span class="title">Proud Member</span>
+                <img src="images/spotlight-pic-3.png" alt="skip the dishes business logo">
+                <span>info@skipthedishes.ca</span>
+                <span>(204) 777-7777</span>
+                <a class="link-low-profile" href="#">Website</a>
             </div>
         </div>
     </main>

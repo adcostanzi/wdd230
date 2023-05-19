@@ -1,80 +1,96 @@
-@media only screen and (min-width:37.5em){
-
-
-
-#social {
+@media only screen and (min-width: 37.5em) {
+  #social {
     display: grid;
     grid-template-columns: 90% 5% 5%;
-}
+  }
 
-#date {
+  #date {
     text-align: left;
     padding-left: 20px;
-}
+  }
 
-/*-------------- Main CSS --------------*/
+  /*-------------- Main CSS --------------*/
 
-main {
+  main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
+  }
 
-.hero-image, .news, .join, .spotlights {
+  .hero-image,
+  .news,
+  .join,
+  .spotlights {
     grid-column: 1/4;
-}
- 
-.hero-image {
+  }
+
+  .hero-image {
     order: 1;
-}
+  }
 
-.news {
+  .news {
     order: 2;
-}
+  }
 
-.spotlights {
+  .spotlights {
     order: 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+  }
 
-.join {
+
+  .join {
     order: 4;
-}
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(50deg, var(--accent-2), var(--accent-1));
+    padding: 2em;
+    text-align: center;
+  }
 
-.event {
+
+
+
+
+  .title-big {
+    font-size: 2em;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+  }
+
+  .event {
     grid-column: 1/3;
     order: 5;
-}
+  }
 
-.weather {
+  .weather {
     grid-column: 3/4;
     order: 5;
-}
+  }
 
-
-/*-------------- Footer CSS --------------*/
-#footer-line {
+  /*-------------- Footer CSS --------------*/
+  #footer-line {
     font-size: 1.2em;
   }
-  
-  
-.contact-info {
+
+  .contact-info {
     flex-direction: row;
     column-gap: 2em;
     font-size: 1.2em;
   }
 
-.contact-1 {
+  .contact-1 {
     margin: auto;
-}
+  }
 
-.contact-2 {
+  .contact-2 {
     margin: 5em auto 0;
     row-gap: 0.2em;
-}
+  }
 
-footer a {
+  footer a {
     font-size: 1.1em;
-}
-
+  }
 }
