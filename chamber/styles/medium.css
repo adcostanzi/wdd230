@@ -51,7 +51,14 @@
   }
 
 
+  .banner {
+    letter-spacing: 1px;
+  }
 
+  #title-absolute {
+    font-size: 2em;
+  }
+  
 
 
   .title-big {
