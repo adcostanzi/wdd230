@@ -57,6 +57,11 @@
 
   #title-absolute {
     font-size: 2em;
+    top: 5%;
+  }
+
+  #call-to-action {
+    bottom: 20%;
   }
   
 
