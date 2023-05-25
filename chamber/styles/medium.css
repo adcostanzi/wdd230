@@ -37,6 +37,16 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .spotlight {
+    margin: 0 auto;
+    width: 90%;
+    height: 80%;
+  }
+
+  .spotlight img {
+    width: 70%;
+    margin: 2em;
+  }
 
   .join {
     order: 4;

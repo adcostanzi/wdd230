@@ -132,12 +132,21 @@
     grid-template-columns: 1fr;
   }
 
+  
+  .spotlight {
+    margin: 0 auto;
+    width: 90%;
+    height: 85%;
+  }
+
+  .spotlight img {
+    width: 70%;
+    margin: 2em;
+  }
+
   #hidden-spotlight {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 2em; 
-    background-color: #d6ffff;
   }
 
   /*-------------- Footer CSS --------------*/
