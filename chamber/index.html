@@ -62,7 +62,9 @@
         <div class="weather">
             <span class="title">Weather</span>
             <img src="images/weather-small.png" alt="weather picture">
-            <span>Temperature: 50 Celsius<br>Wind: SE</span>
+            <span>Temperature: <span id="temperature">10</span>° Celsius</span>
+            <span>Wind Speed: <span id="wind-speed">4.4</span> km/h</span>
+            <span>Windchill: <span id="windchill"></span></span>
         </div>
         <div class="news">
             <span class="title">News Release</span>
@@ -117,5 +119,6 @@
         <p class="color-paragraph" id="footer-line">&copy;<span id="year"></span> | Winnipeg Chamber of Commerce | Andres Costanzi | WDD230 Project | <span id="last-modified"></span></p>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

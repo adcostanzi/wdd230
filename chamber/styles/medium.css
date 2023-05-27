@@ -98,6 +98,10 @@
     order: 5;
   }
 
+  .weather span {
+    text-align: center;
+  }
+
   /*-------------- Footer CSS --------------*/
   #footer-line {
     font-size: 1.2em;
