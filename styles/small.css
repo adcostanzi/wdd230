@@ -75,5 +75,6 @@ video {
 @media screen and (min-width: 600px) {
   video {
     width: 600px;
+    height: 400px;
   }  
 }
