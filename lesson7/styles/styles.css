@@ -14,6 +14,7 @@ body img {
 
 body img[data-src]{
     filter: blur(0.2em);
+    transition: filter 0.5s;
 }
 
 body img {
