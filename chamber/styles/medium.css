@@ -102,6 +102,17 @@
     text-align: center;
   }
 
+  main div.discover-container {
+    grid-column: 1/4;
+  }
+
+  .pic{
+    object-fit: contain;
+  }
+  .pic img:hover {
+    box-shadow: 0 0 50px #333;;
+  }
+
   /*-------------- Footer CSS --------------*/
   #footer-line {
     font-size: 1.2em;
