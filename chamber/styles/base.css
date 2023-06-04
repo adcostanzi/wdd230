@@ -456,3 +456,6 @@ footer a:hover {
   font-weight: bold;
 }
 
+#last-login {
+  margin: 1em auto;
+}
