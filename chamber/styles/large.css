@@ -166,7 +166,8 @@
 
   .pic img{
     border: 1px solid black;
-
+    width: 400px;
+    height: auto;
   }
 
   .individual-picture-container {
