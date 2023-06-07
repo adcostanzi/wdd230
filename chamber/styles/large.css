@@ -153,6 +153,25 @@
     grid-column: 1/5;
     grid-row: 1/4;
     max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+  }
+
+  main div.discover-container .pictures-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .pic img{
+    border: 1px solid black;
+
+  }
+
+  .individual-picture-container {
+    width: auto;
+    background-color: white;
   }
 
   /*-------------- Footer CSS --------------*/

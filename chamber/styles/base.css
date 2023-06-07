@@ -398,8 +398,24 @@ main div.pictures-container .pic{
   margin: 1em 0;
 }
 
+main div.pictures-container .pic img{
+  display: block;
+  border: 1px solid black;
+}
 .img-caption {
   text-align: center;
+  margin: 0.8em;
+}
+
+.individual-picture-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  border: none;
+  border-radius: 50px;
+  background-color: var(--accent-1);
 }
 
 
