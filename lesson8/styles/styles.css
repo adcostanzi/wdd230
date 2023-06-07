@@ -1,0 +1,39 @@
+table {
+    border: thin solid black;
+    margin: 1rem;
+    border-collapse: collapse;
+    background-color: #1b1c28;
+}
+
+table caption {
+    caption-side: bottom;
+    margin: 0.5rem;
+    font-size: 0.9rem;
+}
+
+th, td {
+    padding: 0.5rem 0.7em;
+    text-align: center;
+    border: none;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #323449;    
+}
+
+thead {
+    background-color: #9191b6;
+    color: black;
+
+}
+
+.col-head {
+    background-color: #c2c4d6;
+    color: black;
+}
+
+.main-title {
+    color: black;
+}
+
