@@ -475,3 +475,162 @@ footer a:hover {
 #last-login {
   margin: 1em auto;
 }
+
+/*--------------- THANK YOU ---------------*/
+
+section.thank-you {
+  grid-column: 1/4;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+section a.homepage-link {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0.2em 1em;
+  background-color: var(--secondary);
+  color: black;
+  text-decoration: none;
+}
+
+.homepage-link:hover {
+  background-color: var(--accent-2);
+  color: white;
+  box-shadow: 0 0 12px 5px var(--secondary);
+}
+
+.wrapper {
+  border: none;
+  text-align: center;
+  background: transparent;
+}
+
+/*--------------- MODAL MEMBERSHIP ---------------*/
+
+#modal-membership {
+  display: none;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-info {
+  background-color: var(--accent-1);
+  padding: 1rem;
+}
+
+.small-p {
+  font-size: 1rem;
+}
+
+#modal-close {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0.2em 1em;
+  background-color: var(--secondary);
+  color: black;
+}
+
+#modal-close:hover {
+  background-color: var(--accent-2);
+  color: white;
+  box-shadow: 0 0 12px 5px var(--secondary);
+}
+
+
+/*--------------- FORM ---------------*/
+
+#modal-open {
+  margin: 1rem 0;
+  border: none;
+  background: transparent;
+  font-size: 1.3rem;
+  color: #663399;
+}
+
+#modal-open:hover {
+  color:#663399;
+  font-weight: bold;
+}
+
+.form-container {
+  grid-column: 1/4;
+  width: 80%;
+  margin: 1rem auto;
+  background: transparent;
+  border: none;
+}
+
+.form-container form {
+  background-color: #C2FFFF;
+  border-radius: 2%;
+}
+
+form label.top {
+  display: block;
+  margin-top: 0.75rem;
+}
+
+form div {
+  background: transparent;
+  border: none;
+  margin-top: 0.75rem;
+  margin-left: 0;
+}
+
+form label.top input {
+  display: block;
+  font-size: 1.2rem;
+  width: 90%;
+  max-width: 20rem;
+  padding: 0.5rem;
+}
+
+form textarea {
+  font-size: 1.2rem;
+  width: 90%;
+  max-width: 20rem;
+  padding: 0.5rem;
+}
+
+form label.side {
+  display: block;
+  margin: 0.75rem 0 0 0;
+}
+
+form label.side input {
+  margin-right: 0.45rem;
+}
+
+form .sign-up input{
+  margin-top: 0.75rem;
+  background-color: var(--secondary);
+  border-radius: 15px;
+  padding: 0.5rem 0.75rem;
+}
+
+form legend {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 1rem 0 0 0;
+}
+
+form fieldset {
+  border: none;
+  margin: 1rem 0; 
+}
+
+form div.form-btnWrapper {
+  width: 100%;
+  text-align: center;
+}
+
+form label.top input:required {
+  border: solid red 0.5px;
+}
+
+form label.top input:required:valid {
+  border: solid darkgreen 0.5px;
+}

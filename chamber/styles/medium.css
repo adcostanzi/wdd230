@@ -137,3 +137,21 @@
     font-size: 1.1em;
   }
 }
+
+/*--------------- THANK YOU ---------------*/
+
+section.thank-you {
+  grid-column: 1/4;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+/*--------------- FORM ---------------*/
+
+.form-container {
+  max-width: 25rem;
+}
+
+form textarea {
+  display: block;
+}
