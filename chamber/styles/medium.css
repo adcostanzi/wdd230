@@ -136,7 +136,7 @@
   footer a {
     font-size: 1.1em;
   }
-}
+
 
 /*--------------- THANK YOU ---------------*/
 
@@ -154,4 +154,16 @@ section.thank-you {
 
 form textarea {
   display: block;
+}
+
+form label.top input:required {
+  border: solid red 0.5px;
+}
+
+form label.top input:required:valid {
+  border: solid darkgreen 0.5px;
+}
+
+
+
 }

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/script.js" defer></script>
-    <script src="scripts/modal.js" defer></script>
+    <script src="scripts/form.js" defer></script>
     <title>Discover Winnipeg</title>
 </head>
 <body>
@@ -46,9 +46,9 @@
                     <legend>User Information</legend>
                     <label class="top">First Name*<input type="text" name="fname" required></label>
                     <label class="top">Last Name*<input type="text" name="lname" required></label>
-                    <label class="top">Bussiness Title<input type="text" name="title" minlength="7" pattern="[a-zA-Z -]+"></label>
+                    <label class="top">Bussiness Title<input type="text" name="title" minlength="7" pattern="^[a-zA-Z -]+$"></label>
                     <label class="top">Email*<input type="email" name="email" placeholder="example@outlook.com" required></label>
-                    <label class="top">Telephone*<input type="tel" name="tel" required></label>
+                    <label class="top">Cellphone*<input type="tel" name="tel" required></label>
                 </fieldset>
                 <fieldset>
                     <legend>Business Information</legend>
@@ -58,7 +58,7 @@
                     <label class="side"><input type="radio" name="membership" value="bronze-member">Bronze Member</label>
                     <label class="side"><input type="radio" name="membership" value="silver-member">Silver Member</label>
                     <label class="side"><input type="radio" name="membership" value="gold-member">Gold Member</label>
-                    <label><button id="modal-open">Read more</button></label>
+                    <label><button type="button" id="modal-open">Read more</button></label>
                     <div id="modal-membership">
                         <div class="modal-info">
                             <h2>Membership Fees and Descriptions</h2>
@@ -71,12 +71,12 @@
                             <span>Gold Member:</span>
                             <p class="small-p">Price: $565<br> Includes all Bronze and Silver benefits, 80% discount on chamber events and free spotlight advertising on the chamber website!<br></p>
                             <div class="wrapper">
-                                <button id="modal-close">Close</button>
+                                <button type="button" id="modal-close">Close</button>
                             </div>
                         </div>
                    </div>
                     <label class="top">Business Description<textarea name="bdescription"></textarea></label>
-                    <label><input type="hidden" name="dateandtime"></label>
+                    <label><input type="hidden" name="dateandtime" id="todayDate"></label>
                     <div class="form-btnWrapper">
                     <label class="sign-up"><input type="submit" name="submitBtn" value="Sign Up My Membership"></label>
                     </div>

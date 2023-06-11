@@ -611,6 +611,12 @@ form .sign-up input{
   padding: 0.5rem 0.75rem;
 }
 
+form .sign-up input:hover{
+  background-color: var(--accent-2);
+  color: white;
+  box-shadow: 0 0 12px 5px var(--secondary);
+}
+
 form legend {
   font-weight: bold;
   font-size: 1.2rem;
@@ -628,9 +634,9 @@ form div.form-btnWrapper {
 }
 
 form label.top input:required {
-  border: solid red 0.5px;
+  border: solid red 1px;
 }
 
 form label.top input:required:valid {
-  border: solid darkgreen 0.5px;
+  border: solid darkgreen 1px;
 }
