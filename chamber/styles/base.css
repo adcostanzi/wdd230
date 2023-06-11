@@ -640,3 +640,7 @@ form label.top input:required {
 form label.top input:required:valid {
   border: solid darkgreen 1px;
 }
+
+form label.top input:invalid {
+  border: 1px red dashed;
+}
