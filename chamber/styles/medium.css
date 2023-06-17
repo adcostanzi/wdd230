@@ -106,6 +106,7 @@
     grid-column: 1/4;
   }
 
+
   .pic{
     object-fit: contain;
   }
@@ -163,6 +164,40 @@ form label.top input:required {
 form label.top input:required:valid {
   border: solid darkgreen 0.5px;
 }
+
+/*--------------- DIRECTORY ---------------*/
+
+main div.directory-container {
+  grid-column: 1/4;
+}
+
+div.button-container {
+  margin: 2rem auto;
+}
+
+.display-button {
+  padding: 1.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+div.members-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+/************** DIRECTORY AS LIST **************/
+
+div.members-container.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+div.members-container.list span{
+  margin: 10.5rem 0;
+}
+
+
 
 
 

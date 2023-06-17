@@ -644,3 +644,92 @@ form label.top input:required:valid {
 form label.top input:invalid {
   border: 1px red dashed;
 }
+
+/*--------------- DIRECTORY PAGE ---------------*/
+
+.page-title {
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+  border: none;
+  display: flex;
+  justify-content: space-evenly;
+  background: transparent
+}
+
+.display-button {
+  padding: 1rem 0.5rem;
+  background-color: #FFDB99;
+}
+
+.display-button:hover {
+  background-color: #C2A3E0;
+}
+
+.display-button:active {
+  background-color: #ADFFFF;
+}
+
+div.directory-container {
+  border: none;
+  background: transparent;
+}
+
+div.members-container {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: none;
+}
+
+
+section.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--accent-1);
+  padding: 0.5rem 0rem 1rem;
+  border-radius: 5px;
+}
+
+section.card img {
+  max-width: 80%;
+  margin: 0.5rem auto 2rem;
+}
+
+section.card h3 {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+
+section.card span, a {
+  margin: 0.2rem auto;
+}
+
+/************** DIRECTORY AS LIST **************/
+
+div.members-container.list section.card {
+  text-align: left;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+div.members-container.list section.card img {
+  display: none;
+}
+
+div.members-container.list section.card h3 {
+  background:transparent;
+  border: none;
+  font-weight: lighter;
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+div.members-container.list section.card span, a{
+  margin: 0.2rem 0px 0.2rem;
+}

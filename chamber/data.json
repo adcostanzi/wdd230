@@ -1,0 +1,85 @@
+{
+    "members" : [
+        {
+            "name": "Manitoba Public Insurance",
+            "address": "912 - 234 Donald St. P.O. Box 6300, Winnipeg, MB R3C 4A4",
+            "phone": "(204) 985-7000",
+            "website": "www.mpi.mb.ca",
+            "logo": "images/directory-img/mpi.jpg",
+            "membershipLevel": "gold",
+            "memberSince": "1975"
+        },
+        {
+            "name": "Birchwood BMW",
+            "address": "45-3965 Portage Ave. Winnipeg, MB R3K 2H6",
+            "phone": "(204) 452-7799",
+            "website": "http://www.birchwoodbmw.ca/",
+            "logo": "images/directory-img/birchwood-bmw.png",
+            "membershipLevel": "silver",
+            "memberSince": "2013"
+        },
+        {
+            "name": "Vitahealth",
+            "address": "1349 Portage Avenue Winnipeg, MB R3G 0V7",
+            "phone": "(204) 949-0199",
+            "website": "https://myvita.ca/",
+            "logo": "images/directory-img/vitahealth.png",
+            "membershipLevel": "bronze",
+            "memberSince": "2015"
+        },
+        {
+            "name": "The Winnipeg Foundation",
+            "address": "1 Lombard Ave #1350, Winnipeg, MB R3B 0X3",
+            "phone": "(204) 944-9474",
+            "website": "https://www.wpgfdn.org/",
+            "logo": "images/directory-img/thewpgfoundation.jpg",
+            "membershipLevel": "np-member",
+            "memberSince": "2020"
+        },
+        {
+            "name": "A Little Pizza Heaven",
+            "address": "120 Osborne St. Winnipeg, MB R3L 1Y5",
+            "phone": "(204) 777-5255",
+            "website": "www.tastealittlepizzaheaven.com",
+            "logo": "images/directory-img/pizzaheaven.jpg",
+            "membershipLevel": "bronze",
+            "memberSince": "2022"
+        },
+        {
+            "name": "Maxim transportation",
+            "address": "227 Henderson Hwy. Winnipeg, MB R2L 1M1",
+            "phone": "(204) 669-5590",
+            "website": "https://www.maximinc.com/winnipeg",
+            "logo": "images/directory-img/maxim-transportation.png",
+            "membershipLevel": "silver",
+            "memberSince": "2021"
+        },
+        {
+            "name": "Churchill High School",
+            "address": "510 Hay St., Winnipeg, MB R3L 2L6",
+            "phone": "(204) 222-8759",
+            "website": "https://www.winnipegsd.ca/churchill",
+            "logo": "images/directory-img/churchill-hs.jpg",
+            "membershipLevel": "np-member",
+            "memberSince": "2013"
+        },
+        {
+            "name": "Chicken Delight of Canada Ltd",
+            "address": "395 Berry St., Winnipeg, MB R3J 1N6",
+            "phone": "(204) 885-7570",
+            "website": "www.ChickenDelight.com",
+            "logo": "images/directory-img/chickendelight.jpg",
+            "membershipLevel": "gold",
+            "memberSince": "2012"
+        },
+        {
+            "name": "Skip the Dishes",
+            "address": "Market Ave, Winnipeg, MB R3B 0P4",
+            "phone": "(431) 688-5904",
+            "website": "https://www.skipthedishes.com/",
+            "logo": "images/directory-img/skipthedishes.png",
+            "membershipLevel": "gold",
+            "memberSince": "2018"
+        }
+    ]
+}
