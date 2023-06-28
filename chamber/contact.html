@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of Commerce Directory Page - Andres Costanzi WDD 230: Web Frontend Development at BYU - Idaho">
+    <meta name="description" content="Chamber of Commerce Contact Us Page">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/script.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
-    <title>Directory</title>
+    <script src="scripts/form.js" defer></script>
+    <title>Contact us</title>
 </head>
 <body>
     <header>
@@ -33,21 +33,43 @@
             <button id="whopperBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="menu">
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="#">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-       <div class="directory-container">
-            <h2 class="page-title">Business Directory</h2>
-            <div class="button-container"> 
-                <button id="gridBtn" class="display-button">☷ Grid</button>
-                <button id="listBtn" class="display-button">☰ List</button>
+        <div class="contact-container">
+           <div class="form-container">
+                <form method="get" action="thankyou-contact.html">
+                    <fieldset>
+                        <legend>Your Contact Information</legend>
+                        <label class="top">First Name*<input type="text" name="fname" required></label>
+                        <label class="top">Last Name*<input type="text" name="lname" required></label>
+                        <label class="top">Email*<input type="email" name="email" placeholder="example@outlook.com" required></label>
+                        <label class="top">Cellphone<input type="tel" name="tel"></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your Inquiry</legend>
+                        <label class="top">Inquiry<textarea name="inquiry" required></textarea></label>
+                        <div class="form-btnWrapper">
+                        <label class="sign-up"><input type="submit" name="submitBtn" value="Send My Inquiry"></label>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
-            <div class="members-container"></div>
-       </div>
+            <section class="information-container">
+                <h2>Contact Information</h2>
+                <h3>Address</h3>
+                <span>259 Portage Ave #100, Winnipeg, MB R3B 2A9</span>
+                <h3>Hours of operation</h3>
+                <span>Mon-Fri: 8am - 4pm</span>
+                <h3>Phone</h3>
+                <span>+1 204 668 3285</span>
+            </section>
+        </div>
+        
     </main>
     <footer>
         <div class="contact-info">

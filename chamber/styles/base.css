@@ -209,11 +209,9 @@ body {
   background-color: white;
 }
 
-main div {
-  background-color: lightgrey;
+.home-page-container div {
   border: 1px solid black;
   margin: 0.5em;
-  text-align: left;
 }
 
 .hero-image img {
@@ -380,7 +378,7 @@ main div {
 
 
 
-main {
+.home-page-container {
   display: flex;
   flex-direction: column;
 }
@@ -488,7 +486,6 @@ footer a:hover {
 /*--------------- THANK YOU ---------------*/
 
 section.thank-you {
-  grid-column: 1/4;
   margin-bottom: 3rem;
   width: 100%;
 }
@@ -565,7 +562,6 @@ section a.homepage-link {
 }
 
 .form-container {
-  grid-column: 1/4;
   width: 80%;
   margin: 1rem auto;
   background: transparent;
@@ -642,15 +638,15 @@ form div.form-btnWrapper {
   text-align: center;
 }
 
-form label.top input:required {
+form label.top input:required, textarea:required {
   border: solid red 1px;
 }
 
-form label.top input:required:valid {
+form label.top input:required:valid, textarea:required:valid {
   border: solid darkgreen 1px;
 }
 
-form label.top input:invalid {
+form label.top input:invalid, textarea:invalid {
   border: 1px red dashed;
 }
 
@@ -741,4 +737,26 @@ div.members-container.list section.card h3 {
 
 div.members-container.list section.card span, a{
   margin: 0.2rem 0px 0.2rem;
+}
+
+/************ CONTACT PAGE **************/
+
+.contact-container {
+  width: 100%;
+}
+
+.information-container {
+  max-width: 90%;
+  margin: 5rem auto;
+}
+
+.information-container > h2, h3 {
+  margin: 0.5rem auto;
+}
+
+.information-container h3 {
+  background: transparent;
+  border: none;
+  text-align: left;
+  padding: 0rem 0.1rem;
 }

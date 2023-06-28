@@ -57,7 +57,7 @@
 
   /*-------------- Main CSS --------------*/
 
-  main {
+  .home-page-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -85,8 +85,6 @@
   }
 
   .join {
-    grid-column: 1/2;
-    grid-row: 3/4;
     display: flex;
     flex-direction: column;
     row-gap: 1em;
@@ -146,8 +144,6 @@
   }
 
   main div.discover-container {
-    grid-column: 1/5;
-    grid-row: 1/4;
     max-width: 90%;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -185,24 +181,15 @@
   /*--------------- THANK YOU ---------------*/
 
   section.thank-you {
-    grid-column: 1/5;
-    grid-row: 1/4;
     width: 80%;
     margin: 3rem auto;
-  }
-
-  /*--------------- FORM ---------------*/
-
-  .form-container {
-    grid-column: 1/5;
-    grid-row: 1/4;
   }
 
   /*--------------- DIRECTORY ---------------*/
 
   main div.directory-container {
-    grid-column: 1/5;
-    grid-row: 1/4;
+    max-width: 95%;
+    margin: 1rem auto;
   }
 
   .button-container {
@@ -229,4 +216,20 @@
   div.members-container.list section.card:nth-child(even){
     background-color: #D6C2EB;
   }
+
+  /************ CONTACT PAGE **************/
+
+  .contact-container {
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .information-container {
+    max-width: 100%;
+  }
+
+  
 }
+

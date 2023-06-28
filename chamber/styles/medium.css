@@ -11,11 +11,6 @@
 
   /*-------------- Main CSS --------------*/
 
-  main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   .hero-image,
   .news,
   .join,
@@ -102,10 +97,6 @@
     text-align: center;
   }
 
-  main div.discover-container {
-    grid-column: 1/4;
-  }
-
 
   .pic{
     object-fit: contain;
@@ -142,7 +133,6 @@
 /*--------------- THANK YOU ---------------*/
 
 section.thank-you {
-  grid-column: 1/4;
   margin-bottom: 3rem;
   width: 100%;
 }
@@ -166,10 +156,6 @@ form label.top input:required:valid {
 }
 
 /*--------------- DIRECTORY ---------------*/
-
-main div.directory-container {
-  grid-column: 1/4;
-}
 
 div.button-container {
   margin: 2rem auto;
@@ -197,8 +183,11 @@ div.members-container.list span{
   margin: 10.5rem 0;
 }
 
+/************ CONTACT PAGE **************/
 
-
+.information-container {
+  max-width: 60%;
+}
 
 
 }
