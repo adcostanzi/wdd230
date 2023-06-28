@@ -4,7 +4,7 @@
             "name": "Manitoba Public Insurance",
             "address": "912 - 234 Donald St. P.O. Box 6300, Winnipeg, MB R3C 4A4",
             "phone": "(204) 985-7000",
-            "website": "www.mpi.mb.ca",
+            "website": "http://www.mpi.mb.ca",
             "logo": "images/directory-img/mpi.jpg",
             "membershipLevel": "gold",
             "memberSince": "1975"
@@ -40,7 +40,7 @@
             "name": "A Little Pizza Heaven",
             "address": "120 Osborne St. Winnipeg, MB R3L 1Y5",
             "phone": "(204) 777-5255",
-            "website": "www.tastealittlepizzaheaven.com",
+            "website": "http://www.tastealittlepizzaheaven.com",
             "logo": "images/directory-img/pizzaheaven.jpg",
             "membershipLevel": "bronze",
             "memberSince": "2022"
@@ -67,7 +67,7 @@
             "name": "Chicken Delight of Canada",
             "address": "395 Berry St., Winnipeg, MB R3J 1N6",
             "phone": "(204) 885-7570",
-            "website": "www.ChickenDelight.com",
+            "website": "http://www.ChickenDelight.com",
             "logo": "images/directory-img/chickendelight.jpg",
             "membershipLevel": "gold",
             "memberSince": "2012"

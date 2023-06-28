@@ -211,7 +211,7 @@ body {
 
 .home-page-container div {
   border: 1px solid black;
-  margin: 0.5em;
+  margin: 1rem;
 }
 
 .hero-image img {
@@ -708,6 +708,7 @@ section.card img {
 section.card h3 {
   margin-top: 0px;
   margin-bottom: 1rem;
+  width: 90%;
 }
 
 section.card span, a {
@@ -715,6 +716,10 @@ section.card span, a {
 }
 
 /************** DIRECTORY AS LIST **************/
+
+div.members-container {
+  margin: 1rem auto;
+}
 
 div.members-container.list section.card {
   text-align: left;

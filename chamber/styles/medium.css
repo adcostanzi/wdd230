@@ -169,6 +169,8 @@ div.button-container {
 div.members-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  width: 95%;
+  margin: 1rem auto;
 }
 
 /************** DIRECTORY AS LIST **************/

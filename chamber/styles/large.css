@@ -126,12 +126,15 @@
     grid-row: 1/4;
     display: grid;
     grid-template-columns: 1fr;
+    justify-content: center;
+    place-items: center;
   }
 
   .spotlight {
-    margin: 0 auto;
     width: 90%;
     height: 85%;
+    
+    /*margin: 0 auto;*/
   }
 
   .spotlight img {
@@ -199,6 +202,11 @@
   }
 
   /************** DIRECTORY AS LIST **************/
+
+  div.members-container {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 
   div.members-container.list {
     gap: 0rem;
