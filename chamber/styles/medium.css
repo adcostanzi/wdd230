@@ -1,5 +1,5 @@
 @media only screen and (min-width: 37.5em) {
-  #social {
+  .social {
     display: grid;
     grid-template-columns: 90% 5% 5%;
   }

@@ -150,7 +150,7 @@ body {
   font-size: 1.2em;
 }
 
-#social a{
+.social a{
   display: inline-block;
   height: 32px;
   width: 32px;
@@ -158,11 +158,11 @@ body {
   padding: 0;
 }
 
-#social span {
+.social span {
   margin: 0;
 }
 
-#social {
+.social {
   background-color: rgba(0, 128, 128, 0.5);
   padding: 0.5em;
   align-items: center;
@@ -170,7 +170,7 @@ body {
   grid-template-columns: 80% 10% 10%;
 }
 
-#social a:hover{
+.social a:hover{
   background-color: #008080;
 }
 
