@@ -40,48 +40,112 @@
         </nav>
     </header>
     <main>
-       <div class="form-container">
-            <form method="get" action="thankyou.html">
-                <fieldset>
-                    <legend>User Information</legend>
-                    <label class="top">First Name*<input type="text" name="fname" required></label>
-                    <label class="top">Last Name*<input type="text" name="lname" required></label>
-                    <label class="top">Bussiness Title<input type="text" name="title" minlength="7" pattern="^[a-zA-Z\- ]+$"></label>
-                    <label class="top">Email*<input type="email" name="email" placeholder="example@outlook.com" required></label>
-                    <label class="top">Cellphone*<input type="tel" name="tel" required></label>
-                </fieldset>
-                <fieldset>
-                    <legend>Business Information</legend>
-                    <label class="top">Business Name*<input type="text" name="bname" required></label>
-                    <div>Membership:</div>
-                    <label class="side"><input type="radio" name="membership" value="np-member">Non-profit Member</label>
-                    <label class="side"><input type="radio" name="membership" value="bronze-member">Bronze Member</label>
-                    <label class="side"><input type="radio" name="membership" value="silver-member">Silver Member</label>
-                    <label class="side"><input type="radio" name="membership" value="gold-member">Gold Member</label>
-                    <label><button type="button" id="modal-open">Read more</button></label>
-                    <div id="modal-membership">
-                        <div class="modal-info">
-                            <h2>Membership Fees and Descriptions</h2>
-                            <span>Non Profit Member:</span>
-                            <p class="small-p">This is only for non-profit organization, covers all benefits from the Bronze Membership</p>
-                            <span>Bronze Member:</span>
-                            <p class="small-p">Price: $350<br>Includes monthly training, 20% on all chamber events and advertising on the directory</p>
-                            <span>Silver Member:</span>
-                            <p class="small-p">Price: $450<br>Includes all bronze benefits plus an additional 20% discount on the events and one business workship per semester completely free!</p>
-                            <span>Gold Member:</span>
-                            <p class="small-p">Price: $565<br> Includes all Bronze and Silver benefits, 80% discount on chamber events and free spotlight advertising on the chamber website!<br></p>
-                            <div class="wrapper">
-                                <button type="button" id="modal-close">Close</button>
-                            </div>
+       <div class="form-page-container">
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="table-title" colspan="5" scope="colgroup">Membership benefits per level</th>
+                        </tr>
+                        <tr>
+                            <th class="col-head" scope="col">Benefit</th>
+                            <th class="col-head" scope="col">Non Profit</th>
+                            <th class="col-head" scope="col">&#129353;</th>
+                            <th class="col-head" scope="col">&#129352;</th>
+                            <th class="col-head" scope="col">&#129351;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="benefit">Event Discount</td>
+                            <td>10%</td>
+                            <td>10%</td>
+                            <td>15%</td>
+                            <td>20%</td>
+                        </tr>
+                        <tr>
+                            <td class="benefit">Monthly Training</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                        </tr>
+                        <tr>
+                            <td class="benefit">Listed in Directory</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                        </tr>
+                        <tr>
+                            <td class="benefit">Free Business Workshop</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                        </tr>
+                        <tr>
+                            <td class="benefit">Spotlight Advertising</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                        </tr>
+                        <tr>
+                            <td class="benefit">Free Marketing Consultant</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                        </tr>
+                        <tr>
+                            <td class="benefit">Exclusive Networking</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td class="col-head">Prices</td>
+                            <td class="col-head">Free</td>
+                            <td class="col-head">$250</td>
+                            <td class="col-head">$370</td>
+                            <td class="col-head">$450</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            
+            <div class="form-container">
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>User Information</legend>
+                        <label class="top">First Name*<input type="text" name="fname" required></label>
+                        <label class="top">Last Name*<input type="text" name="lname" required></label>
+                        <label class="top">Bussiness Title<input type="text" name="title" minlength="7" pattern="^[a-zA-Z\- ]+$"></label>
+                        <label class="top">Email*<input type="email" name="email" placeholder="example@outlook.com" required></label>
+                        <label class="top">Cellphone*<input type="tel" name="tel" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Business Information</legend>
+                        <label class="top">Business Name*<input type="text" name="bname" required></label>
+                        <div>Membership:</div>
+                        <label class="side"><input type="radio" name="membership" value="np-member">Non-profit Member</label>
+                        <label class="side"><input type="radio" name="membership" value="bronze-member">Bronze Member &#129353;</label>
+                        <label class="side"><input type="radio" name="membership" value="silver-member">Silver Member &#129352;</label>
+                        <label class="side"><input type="radio" name="membership" value="gold-member">Gold Member &#129351;</label>
+                        <label class="top">Business Description<textarea name="bdescription"></textarea></label>
+                        <label><input type="hidden" name="dateandtime" id="todayDate"></label>
+                        <div class="form-btnWrapper">
+                        <label class="sign-up"><input type="submit" name="submitBtn" value="Sign Up My Membership"></label>
                         </div>
-                   </div>
-                    <label class="top">Business Description<textarea name="bdescription"></textarea></label>
-                    <label><input type="hidden" name="dateandtime" id="todayDate"></label>
-                    <div class="form-btnWrapper">
-                    <label class="sign-up"><input type="submit" name="submitBtn" value="Sign Up My Membership"></label>
-                    </div>
-                </fieldset>
-            </form>
+                    </fieldset>
+                </form>
+            </div>
+            
+            
        </div>
     </main>
     <footer>

@@ -510,55 +510,60 @@ section a.homepage-link {
   background: transparent;
 }
 
-/*--------------- MODAL MEMBERSHIP ---------------*/
+/*--------------- MEMBERSHIP TABLE ---------------*/
 
-#modal-membership {
-  display: none;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
+.table-container {
+  width: 96%;
+  margin: 2rem 2%;
+}
+
+table {
+  border: thin solid black;
+  border-collapse: collapse;
   margin: 0 auto;
-  background-color: rgba(0,0,0,0.4);
-}
-.modal-info {
-  background-color: var(--accent-1);
-  padding: 1rem;
+  width: 100%;
 }
 
-.small-p {
-  font-size: 1rem;
-}
-
-#modal-close {
-  border: 2px solid black;
-  border-radius: 20px;
-  padding: 0.2em 1em;
-  background-color: var(--secondary);
+table th.table-title {
+  padding: 10px 2px;
+  background-color: #C2CED6;
   color: black;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
 }
 
-#modal-close:hover {
-  background-color: var(--accent-2);
-  color: white;
-  box-shadow: 0 0 12px 5px var(--secondary);
+th, td {
+  padding: 5px 0px;
+  max-width: 10px;
+  text-align: center;
 }
+
+td.benefit {
+  padding: 5px 30px;
+  justify-content: center;
+}
+
+.col-head {
+  background-color: #C2CED6;
+  color: black;
+  font-weight: lighter;
+  padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #d6ffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #D6C2EB;
+}
+
 
 
 /*--------------- FORM ---------------*/
 
-#modal-open {
-  margin: 1rem 0;
-  border: none;
-  background: transparent;
-  font-size: 1.3rem;
-  color: #663399;
-}
-
-#modal-open:hover {
-  color:#663399;
-  font-weight: bold;
-}
 
 .form-container {
   width: 80%;
