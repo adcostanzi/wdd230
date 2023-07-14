@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods Home Page - Fresh, organic and healthy food, order, find location and connect with Bountiful Foods">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/script.js" defer></script>
+    <title>Bountiful Foods</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <picture>
+                <source media="(max-width:599px)" srcset="images/bountiful-foods-logo-small.png">
+                <source media="(min-width:600px)" srcset="images/bountiful-foods-logo-medium.png">
+                <img class="logo" src="images/bountiful-foods-logo-small.png" alt="Bountiful Foods Logo" loading="lazy">
+            </picture>
+            
+        </div> 
+        <div class="title-container">
+            <h1>Bountiful Foods</h1>
+            <h2>Experience our fresh, organic and locally sourced ingredients</h2>
+        </div>
+        <button id="menu-toggle"><span class="view">&Congruent;</span><span class="x">X</span><span class="word-title">MENU</span></button>
+    </header>
+    <main>
+        <div class="navigation-menu">
+            <nav>
+                <span class="menu-title">Menu</span>
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Fresh</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="navigation-shadow"></div>
+        <div class="info-card">
+            <button id="display-info-card"><img id="right-arrow" src="images/right-arrow.png" alt="right arrow" width="44" height="44"><img id="left-arrow" src="images/left-arrow.png" alt="right arrow" width="44" height="44"></button>
+            <section id="order-info">
+
+            </section>
+        </div>
+        <div class="hero-image-container">
+            <picture>
+                <source media="(max-width:420px)" srcset="images/hero-image-small.jpg">
+                <source media="(max-width:849px)" srcset="images/bountiful-remixed.webp">
+                <source media="(min-width:850px)" srcset="images/hero-image-large.jpg"> 
+                <img src="images/hero-image-small.jpg" alt="fresh fruits from Bountiful Foods picture" loading="lazy">
+            </picture>
+            <a href="#" class="call-to-action">Order now</a>
+        </div>
+        <div class="small-contact-container">
+            <h2>Connect with us Online or in Person!</h2>
+            <p>Questions, suggestions or comments? Let's have a chat!</p>
+            <section class="contact-images">
+                <img src="images/connect.png" alt="connect symbol" width="64" height="64" loading="lazy">
+                <a href="#" class="call-to-action">Contact us</a>
+                <img src="images/shop.png" alt="local shop symbol" width="64" height="64" loading="lazy">
+            </section>
+        </div>
+        <div class="weather-container">
+            <span id="weather-location">Carlsbad, California</span>
+            <span id="weather-temperature">22°</span>
+            <img id="weather-description-picture" src="#" alt="weather description picture">
+            <span id="weather-description">Cloudy</span>
+            <span id="weather-humidity">Humidity: 50%</span>
+        </div>
+        <section class="coastal-info-container">
+            <h2>Coastal Areas:<br> Our Foodtruck's Home!</h2>
+            <article class="foodtruck-article">
+                <h3>Coastal Park Delights</h3>
+                <p>Find our Bountiful Foods food truck nestled near the scenic Coastal Park, offering a delightful culinary experience amidst breathtaking ocean views. Indulge in fresh, organic, and locally sourced ingredients as you bask in the coastal breeze.</p>
+                <picture>
+                    <source media="(max-width:399px)" srcset="images/park-small.jpg">
+                    <source media="(max-width:899px)" srcset="images/park-medium.jpg">
+                    <source media="(min-width:900px)" srcset="images/park-large.webp"> 
+                    <img src="images/park-small.jpg" alt="People enjoying time at Coastal Park Delight" loading="lazy">
+                </picture>
+            </article>
+            <article class="foodtruck-article">
+                <h3>Village Square Eats</h3>
+                <p>Discover the Bountiful Foods food truck parked at the vibrant Village Square, right in the heart of Carlsbad. Join the lively atmosphere as you savor our flavorful creations made with the utmost dedication to quality and taste.</p>
+                <picture>
+                    <source media="(max-width:399px)" srcset="images/village-shops-small.jpg">
+                    <source media="(max-width:899px)" srcset="images/village-shops-medium.jpg">
+                    <source media="(min-width:900px)" srcset="images/village-shops-large.jpg"> 
+                    <img src="images/village-shops-small.jpg" alt="Village Shops picture" loading="lazy">
+                </picture>
+            </article>
+            <article class="foodtruck-article">
+                <h3>Sunset Pier Oasis</h3>
+                <p>Experience the culinary oasis of Bountiful Foods' food truck stationed at the picturesque Sunset Pier. Unwind by the water's edge while enjoying the perfect blend of fresh, organic, and locally sourced ingredients, creating a feast for both your taste buds and soul.</p>
+                <picture>
+                    <source media="(max-width:399px)" srcset="images/pier-small.jpg">
+                    <source media="(minx-width:400px)" srcset="images/pier-medium.jpg">
+                    <img src="images/pier-small.jpg" alt="Sunset Pier Picture" loading="lazy">
+                </picture>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="social-media-container">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook picture and link" width="44" height="44" loading="lazy"></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter picture and link" width="44" height="44" loading="lazy"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram picture and link" width="44" height="44" loading="lazy"></a>
+        </div>
+        <div class="footer-info-container">
+            <span>&#169;<span id="year"></span> | Bountiful Foods Website | Andres Costanzi | WDD230 BYU Idaho</span>
+        </div>
+    </footer>
+</body>
+</html>

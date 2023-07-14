@@ -1,0 +1,101 @@
+@media only screen and (min-width: 600px) {
+  /*******  MEET US CONTAINER  ******/
+
+  .pic-container picture img {
+    width: 80%;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.73);
+    margin: 2rem 10%;
+  }
+
+  /*******  HERO IMAGE AND CALL TO ACTION  ******/
+  .hero-image-container a.call-to-action {
+    position: absolute;
+    left: 20%;
+    bottom: 10%;
+    /*transform: translate(-50%, -50%);*/
+  }
+
+  /*******  BUTTONS GENERAL  ******/
+
+  .call-to-action {
+    padding: 0.7rem 1.2rem;
+    border-radius: 20px;
+    outline: 2px solid black;
+    outline-offset: -5px;
+    box-shadow: 0 0 0 5px rgba(88, 20, 67, 0.8);
+    font-size: 1.5rem;
+  }
+
+  /********** NAVIGATION BAR ************/
+
+  #menu-toggle span.word-title {
+    display: block;
+    /*font-size: 1rem;*/
+  }
+
+  #menu-toggle span.view {
+    display: none;
+  }
+
+  #menu-toggle.overlay span.x {
+    display: block;
+    font-size: 2rem;
+  }
+
+  #menu-toggle.overlay span.word-title {
+    display: none;
+  }
+
+  #menu-toggle {
+    width: 120px;
+    height: 70px;
+    font-size: 2rem;
+    background-color: rgba(113, 42, 92, 0.82);
+    border: 2px solid black;
+    color: white;
+  }
+
+  #menu-toggle:hover {
+    background-color: rgba(166, 107, 148, 0.82);
+    border: 3px solid white;
+    color: black;
+  }
+
+  #menu-toggle:active {
+    background-color: rgba(85, 0, 0, 0.82);
+    border: 4px solid black;
+    color: white;
+  }
+
+  #menu-toggle.overlay {
+    top: 65px;
+    right: 20px;
+    z-index: 3000;
+  }
+
+  .logo-container picture {
+    margin: auto 15px;
+  }
+
+  /*************** HEADER *****************/
+
+  header {
+    display: grid;
+    grid-template-columns: 180px 1fr 140px;
+    gap: 3%;
+    height: 200px;
+    align-items: center;
+    width: 100%;
+    background: var(--background-green);
+    border-bottom: 1px solid black;
+  }
+
+  .title-container h1 {
+    font-size: 3rem;
+  }
+
+  .title-container h2 {
+    display: block;
+    font-size: 1.5rem;
+  }
+}
