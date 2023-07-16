@@ -193,6 +193,11 @@ h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
 }
 
+div.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
 /**************** INFO CARD *****************/
 
 div.info-card {
@@ -357,23 +362,41 @@ div.weather-container {
     /*background: linear-gradient(90deg, #01041F 0%, #082B33 100%);*/
     padding-top: 2rem;
     padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+div.weather-container.night{
+    background: linear-gradient(90deg, #01041F 0%, #082B33 100%);
+    color: white;
 }
 
 #weather-location{
-    font-size: 1.8rem;
-}
-
-#weather-temperature{
     font-size: 3rem;
 }
 
-#weather-description {
-    font-size: 1.5rem;
+#weather-temperature{
+    font-size: 5rem;
 }
 
-#weather-humidity {
-    font-size: 1.5rem;
+#weather-description {
+    text-transform: capitalize;
 }
+
+div.weather-tap{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.forecast-title {
+    display: none;
+}
+
+#forecast {
+    display: none;
+}
+
 
 /**************** COASTAL INFO *****************/
 

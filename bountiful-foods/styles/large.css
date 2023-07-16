@@ -1,0 +1,157 @@
+@media only screen and (width >= 1000px) {
+  /*************** HEADER *****************/
+
+  header {
+    grid-template-columns: 300px 1fr 200px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .title-container h1 {
+    font-size: 5rem;
+    margin: 0 auto;
+  }
+
+  .title-container h2 {
+    display: block;
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+
+  div.logo-container {
+    text-align: center;
+    align-items: center;
+  }
+
+  /********** NAVIGATION BAR ************/
+
+  #menu-toggle {
+    display: none;
+  }
+
+  div.navigation-menu {
+    display: block;
+    position: absolute;
+    top: -8%;
+    right: 35px;
+  }
+
+  nav ul {
+
+    gap: 40px;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 0.8rem 1rem;
+    width: 100%;
+  }
+
+
+  div.navigation-menu span {
+    display: none;
+  }
+
+
+
+  /*******  HERO IMAGE AND CALL TO ACTION  ******/
+
+  .hero-image-container {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    margin: auto auto;
+  }
+
+  .hero-image-container a.call-to-action {
+    left: 15%;
+    bottom: 5%;
+  }
+
+  .call-to-action {
+    padding: 2rem 4rem;
+    border-radius: 35px;
+    outline: 3px solid black;
+    outline-offset: -8px;
+    box-shadow: 0 0 0 10px rgba(88, 20, 67, 0.8);
+    font-size: 2.5rem;
+  }
+
+  /************* MAIN CONTAINER **************/
+
+  div.main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  div.small-contact-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    font-size: 2rem;
+  }
+
+  /******* WEATHER WIDGET ******/
+
+  div.weather-container {
+    padding: 5rem;
+    border-radius: 35px;  
+  }
+
+  #forecast {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .forecast-title {
+    display: block;
+    font-size: 2.5rem;
+    margin: 2rem auto;
+  }
+
+  .forecast-day{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 50px;
+  }
+
+  /**************** COASTAL INFO *****************/
+
+  section.coastal-info-container {
+    font-size: 1.8rem;
+  }
+
+  article.foodtruck-article:nth-child(even) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+  }
+
+  article.foodtruck-article:nth-child(even) h3 {
+    grid-column: 1/3;
+  }
+  article.foodtruck-article:nth-child(even) p {
+    grid-column: 1/2;
+  }
+
+  /**************** FOOTER *****************/
+
+  div.social-media-container {
+    gap: 50px;
+  }
+
+  div.footer-info-container {
+    font-size: 1.7rem;
+    padding: 4rem 0px;
+  }
+}

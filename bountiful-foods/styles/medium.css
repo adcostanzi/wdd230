@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (width >= 600px) and (width <999px) {
   /*******  MEET US CONTAINER  ******/
 
   .pic-container picture img {
@@ -9,7 +9,6 @@
 
   /*******  HERO IMAGE AND CALL TO ACTION  ******/
   .hero-image-container a.call-to-action {
-    position: absolute;
     left: 20%;
     bottom: 10%;
     /*transform: translate(-50%, -50%);*/
@@ -30,7 +29,6 @@
 
   #menu-toggle span.word-title {
     display: block;
-    /*font-size: 1rem;*/
   }
 
   #menu-toggle span.view {
@@ -98,4 +96,51 @@
     display: block;
     font-size: 1.5rem;
   }
+
+  /************* MAIN CONTAINER **************/
+
+  div.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  div.small-contact-container{
+    grid-column: 1/2;
+  }
+
+  div.weather-container{
+    grid-column: 2/3;
+  }
+
+  section.coastal-info-container{
+    grid-column: 1/3;
+  }
+
+/**************** COASTAL INFO *****************/
+
+section.coastal-info-container{
+    font-size: 1.8rem;
+}
+
+article.foodtruck-article:nth-child(even) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+article.foodtruck-article:nth-child(even) h3{
+    grid-column: 1/3;
+}
+article.foodtruck-article:nth-child(even) p{
+    grid-column: 1/2;
+}
+
+
+/**************** FOOTER *****************/
+
+div.social-media-container {
+    gap: 25px;
+}
+
+
 }

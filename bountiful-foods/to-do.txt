@@ -1,5 +1,3 @@
-Set up basic structure DONE
-Add Content
-Add Img
-Layout Structure
+about page
+fresh page
 
