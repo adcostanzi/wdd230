@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods Home Page - Fresh, organic and healthy food, order, find location and connect with Bountiful Foods">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/fresh.js" defer></script>
+    <title>Bountiful Foods</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <picture>
+                <source media="(max-width:599px)" srcset="images/bountiful-foods-logo-small.png">
+                <source media="(max-width:999px)" srcset="images/bountiful-foods-logo-medium.png">
+                <source media="(min-width:1000px)" srcset="images/bountiful-foods-logo-large.png">
+                <img class="logo" src="images/bountiful-foods-logo-small.png" alt="Bountiful Foods Logo" loading="lazy">
+            </picture>
+            
+        </div> 
+        <div class="title-container">
+            <h1>Bountiful Foods</h1>
+            <h2>Experience our fresh, organic and locally sourced ingredients</h2>
+        </div>
+        <button id="menu-toggle"><span class="view">&Congruent;</span><span class="x">X</span><span class="word-title">MENU</span></button>
+    </header>
+    <main>
+        <div class="navigation-menu">
+            <nav>
+                <span class="menu-title">Menu</span>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="navigation-shadow"></div>
+        <div class="info-card">
+            <button id="display-info-card"><img id="right-arrow" src="images/right-arrow.png" alt="right arrow" width="44" height="44"><img id="left-arrow" src="images/left-arrow.png" alt="right arrow" width="44" height="44"></button>
+            <section id="order-info">
+            </section>
+        </div>
+       <div class="main-form-container">
+            <div class="form-container">
+                <form method="get" id="form-order">
+                    <fieldset>
+                        <legend>User Information</legend>
+                        <label class="top">First Name*<input type="text" name="fname" id="fname" placeholder="John" required></label>
+                        <label class="top">Last Name<input type="text" name="lname" id="lname" placeholder="Doe"></label>
+                        <label class="top">Email*<input type="email" name="email" id="email" placeholder="someone@domain.com" required> </label>
+                        <label class="top">Phone Number <input type="tel" name="tel" id="tel" placeholder="232 552 7587" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your Order</legend>
+                        <label class="selection">Select your #1 ingredient:<select id="fruits1" required>
+                            <option class="first-option" disabled selected value>Select an option</option>
+                        </select></label>
+                        <label class="selection">Select your #2 ingredient:<select id="fruits2" required>
+                            <option class="first-option" disabled selected value>Select an option</option>
+                        </select></label>
+                        <label class="selection">Select your #3 ingredient:<select id="fruits3" required>
+                            <option class="first-option" disabled selected value>Select an option</option>
+                        </select></label>
+                        <label class="top">Add Special Instructions:<textarea name="special-instructions" id="special-instructions"></textarea></label>
+                        <label class="top"><input type="hidden" name="orderdate" id="orderDate"></label>
+                        <div class="form-button-wrapper">
+                            <label class="order"><input class="call-to-action" type="submit" name="submitBtn" id="submitBtn" value="Order Drink"></label>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="form-picture-container">
+                <img src="images/drinks-large.jpg" alt="drinks made of bountiful foods fruits" loading="lazy" width="600" height="874">
+            </div>
+            <div class="form-results">
+                <p>Thank you for your Order! It is now being process...</p>
+                <p>On the meantime, please check your order summary:</p>
+                <h3>Your Order</h3>
+            </div>
+       </div>
+        
+    </main>
+    <footer>
+        <div class="social-media-container">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook picture and link" width="44" height="44" loading="lazy"></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter picture and link" width="44" height="44" loading="lazy"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram picture and link" width="44" height="44" loading="lazy"></a>
+        </div>
+        <div class="footer-info-container">
+            <span>&#169;<span id="year"></span> | Bountiful Foods Website | Andres Costanzi | <span id="last-modified"></span></span>
+            <br>
+            <br>
+            <span>Weather info provided by <a href="https://openweathermap.org/" target="_blank">OpenWeather</a></span>
+        </div>
+    </footer>
+</body>
+</html>

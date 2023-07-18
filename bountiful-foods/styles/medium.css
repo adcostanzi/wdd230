@@ -143,4 +143,30 @@ div.social-media-container {
 }
 
 
+/**************** FORM *****************/
+
+
+.form-container {
+  width: 40%;
+  margin: 5rem auto;
+}
+
+/********** RESULT FORM MODAL *********/
+
+
+div.form-results {
+  width: 80%;
+
+  border: 2px solid black;
+  padding: 2rem 1em 3rem 1rem;
+}
+
+div.form-results p.order-details {
+  line-height: 1.7rem;
+  margin-bottom: 3.5rem;
+}
+
+
+
+
 }

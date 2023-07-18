@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/script.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <title>Bountiful Foods</title>
 </head>
 <body>
@@ -37,9 +38,8 @@
                 <span class="menu-title">Menu</span>
                 <ul class="nav-menu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Fresh</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Resources</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
         </div>
@@ -57,7 +57,7 @@
                 <source media="(min-width:850px)" srcset="images/hero-image-large.webp"> 
                 <img src="images/hero-image-small.jpg" alt="fresh fruits from Bountiful Foods picture" loading="lazy">
             </picture>
-            <a href="#" class="call-to-action">Order now</a>
+            <a href="fresh.html" class="call-to-action">Order now</a>
         </div>
         <div class="main-container">
             <div class="small-contact-container">
@@ -96,8 +96,8 @@
                     <p>Find our Bountiful Foods food truck nestled near the scenic Coastal Park, offering a delightful culinary experience amidst breathtaking ocean views. Indulge in fresh, organic, and locally sourced ingredients as you bask in the coastal breeze.</p>
                     <picture>
                         <source media="(max-width:599px)" srcset="images/park-small.jpg">
-                        <source media="(max-width:1023px)" srcset="images/park-medium.jpg">
-                        <source media="(min-width:1024px)" srcset="images/park-large.webp"> 
+                        <source media="(min-width:600px)" srcset="images/park-medium.jpg">
+                        <!--<source media="(min-width:1024px)" srcset="images/park-large.webp"> -->
                         <img src="images/park-small.jpg" alt="People enjoying time at Coastal Park Delight" loading="lazy">
                     </picture>
                 </article>
@@ -106,8 +106,8 @@
                     <p>Discover the Bountiful Foods food truck parked at the vibrant Village Square, right in the heart of Carlsbad. Join the lively atmosphere as you savor our flavorful creations made with the utmost dedication to quality and taste.</p>
                     <picture>
                         <source media="(max-width:399px)" srcset="images/village-shops-small.jpg">
-                        <source media="(max-width:899px)" srcset="images/village-shops-medium.jpg">
-                        <source media="(min-width:900px)" srcset="images/village-shops-large.jpg"> 
+                        <source media="(min-width:400px)" srcset="images/village-shops-medium.jpg">
+                        <!--<source media="(min-width:900px)" srcset="images/village-shops-large.jpg"> -->
                         <img src="images/village-shops-small.jpg" alt="Village Shops picture" loading="lazy">
                     </picture>
                 </article>
@@ -116,7 +116,7 @@
                     <p>Experience the culinary oasis of Bountiful Foods' food truck stationed at the picturesque Sunset Pier. Unwind by the water's edge while enjoying the perfect blend of fresh, organic, and locally sourced ingredients, creating a feast for both your taste buds and soul.</p>
                     <picture>
                         <source media="(max-width:399px)" srcset="images/pier-small.jpg">
-                        <source media="(minx-width:400px)" srcset="images/pier-medium.jpg">
+                        <source media="(min-width:400px)" srcset="images/pier-medium.jpg">
                         <img src="images/pier-small.jpg" alt="Sunset Pier Picture" loading="lazy">
                     </picture>
                 </article>
@@ -130,7 +130,7 @@
             <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram picture and link" width="44" height="44" loading="lazy"></a>
         </div>
         <div class="footer-info-container">
-            <span>&#169;<span id="year"></span> | Bountiful Foods Website | Andres Costanzi | WDD230 BYU Idaho</span>
+            <span>&#169;<span id="year"></span> | Bountiful Foods Website | Andres Costanzi | <span id="last-modified"></span></span>
             <br>
             <br>
             <span>Weather info provided by <a href="https://openweathermap.org/" target="_blank">OpenWeather</a></span>
