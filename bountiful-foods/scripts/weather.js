@@ -38,7 +38,6 @@ async function getForecastData(){
         if (response.ok){
             const data = await response.json();
             displayForecast(data);
-            console.log(data);
         } else {
             throw Error(await response.text());
         }
