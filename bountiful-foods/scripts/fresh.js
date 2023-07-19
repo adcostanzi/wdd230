@@ -68,11 +68,12 @@ order.addEventListener("submit", function(event){
     backBtn.setAttribute("class","call-to-action");
     backBtn.textContent = "Back to homepage";
     results.appendChild(backBtn);
-
     results.style.display = "block";
+    addOrder();
+    results.focus();
 });
 
-
+// Extracts nutritional facts, sums them up and returns a string with that information
 function calculateFruitData(fruit1, fruit2, fruit3){
     const filteredFruits =  data.filter((fruit)=>{
         if (fruit.name === fruit1){
@@ -102,4 +103,11 @@ function calculateFruitData(fruit1, fruit2, fruit3){
     Fat: ${fat.toFixed(1)}<br>
     Sugar: ${sugar.toFixed(1)}<br>
     Calories: ${calories.toFixed(1)}<br>`;
+}
+
+// Take current number of orders and add one more
+function addOrder(){
+    let currentOrder = Number(localStorage.getItem("total-number-orders"));
+    currentOrder++;
+    localStorage.setItem("total-number-orders", currentOrder);
 }

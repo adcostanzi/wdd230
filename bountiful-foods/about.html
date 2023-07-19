@@ -16,48 +16,86 @@
 </head>
 <body>
     <header>
-        <div class="nav-bar">
-            <div class="logo-container">
-                <img class="logo" src="images/bountiful-foods-logo-small.png" alt="Bountiful Foods Logo">
-            </div> 
-            <div class="title-container">
-                <h1>Bountiful Foods</h1>
-                <h2>Experience our fresh, organic and locally sourced ingredients</h2>
-            </div>
-            <div class="nav-bar-background"></div>
+        <div class="logo-container">
+            <a href="index.html">
+                <picture>
+                    <source media="(max-width:599px)" srcset="images/bountiful-foods-logo-small.png">
+                    <source media="(max-width:999px)" srcset="images/bountiful-foods-logo-medium.png">
+                    <source media="(min-width:1000px)" srcset="images/bountiful-foods-logo-large.png">
+                    <img class="logo" src="images/bountiful-foods-logo-small.png" alt="Bountiful Foods Logo" loading="lazy">
+                </picture>
+            </a>
+            
+        </div> 
+        <div class="title-container">
+            <h1>Bountiful Foods</h1>
+            <h2>Experience our fresh, organic and locally sourced ingredients</h2>
         </div>
-        <nav>
-            <button id="menu-toggle">&Congruent;</button>
-            <ul class="nav-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Fresh</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Resources</a></li>
-            </ul>
-        </nav>
+        <button id="menu-toggle"><span class="view">&Congruent;</span><span class="x">X</span><span class="word-title">MENU</span></button>
     </header>
     <main>
-        <div class="meet-us-container">
-            <h2>From Farm to Fork: Our Journey to Fresh, Organic, and Local Delights</h2>
-            <div class="pic-container">
-                <picture>
-                    <source media="(max-width:399px)" srcset="images/bountiful-ordering-small.jpg">
-                    <source media="(max-width:799px)" srcset="images/bountiful-ordering-medium.jpg">
-                    <source media="(min-width:800px)" srcset="images/bountiful-ordering-large.jpg"> 
-                    <img src="images/bountiful-ordering-small.jpg" alt="picture of local food being delivered" loading="lazy">
-                </picture>
-            </div>
-            
-            <p>Bountiful Foods sprouted from a humble seed of passion for nourishing both people and the community. It all began with our commitment to supporting small local farms in Carlsbad, forming partnerships that allowed us to bring the freshest produce straight to your plate.</p>
-            <p>As our roots took hold and the demand for our delectable produce grew, we embarked on an exciting new chapter. We ventured beyond our storefront and purchased food trucks, bringing the bounty of Bountiful Foods to more than four locations across the coastal area.</p>
-            <p>This expansion allowed us to serve our customers wherever they may be, with the same unwavering commitment to freshness and quality.</p>
-            <p>Today, we invite you to experience the true essence of our vision. Bite into the crisp sweetness of locally sourced apples, savor the vibrant flavors of our organically grown greens, and indulge in the richness of our thoughtfully selected ingredients. Our promise to you is simple: each bite you take will be a testament to our unwavering dedication to freshness, organic integrity, and the vibrant local community that sustains us.</p>
-            <p>Come, join us on this flavorful journey. Discover the essence of Bountiful Foods, where freshness, organic goodness, and local sourcing unite to create a truly nourishing experience for your palate.</p>
-            <span>Locate our <a href="https://www.google.com/maps/place/5835+Avenida+Encinas+%23+124,+Carlsbad,+CA+92008,+USA/@33.1251657,-117.3232917,18z/data=!4m6!3m5!1s0x80dc72faa1e5990b:0xa67941c064bdf530!8m2!3d33.1255597!4d-117.3260815!16s%2Fg%2F11lkj6wk3m">Shop</a></span>
-            <span>Phone: (555) 313-4577 </span>
-            <span>Email: contact@bountifulfoods.com</span>
-            
+        <div class="navigation-menu">
+            <nav>
+                <span class="menu-title">Menu</span>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
         </div>
+        <div id="navigation-shadow"></div>
+        <div class="info-card">
+            
+            <button id="display-info-card">
+                <img id="right-arrow" src="images/right-arrow.png" alt="right arrow" width="44" height="44"><img id="left-arrow" src="images/left-arrow.png" alt="right arrow" width="44" height="44">
+            </button>
+            <div class="check-orders">
+                <span>Check your orders here!</span>
+            <img src="images/fruit-juice.png" alt="drink picture and invitation to see order information card" width="64" height="64">
+            </div>
+            <div class="order-info">
+                <h4>Order Information</h4>
+                <span id="total-orders"></span>
+                <br>
+                <br>
+                <span>Thank you for your Business!</span>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="meet-us-container">
+                <h2>From Farm to Fork: Our Journey to Fresh, Organic, and Local Delights</h2>
+                <div class="pic-container">
+                    <picture>
+                        <source media="(max-width:399px)" srcset="images/bountiful-ordering-small.jpg">
+                        <source media="(max-width:799px)" srcset="images/bountiful-ordering-medium.jpg">
+                        <source media="(min-width:800px)" srcset="images/bountiful-ordering-large.jpg"> 
+                        <img src="images/bountiful-ordering-small.jpg" alt="picture of local food being delivered" loading="eager">
+                    </picture>
+                </div>
+                <p>Bountiful Foods sprouted from a humble seed of passion for nourishing both people and the community. It all began with our commitment to supporting small local farms in Carlsbad, forming partnerships that allowed us to bring the freshest produce straight to your plate.</p>
+                <p>As our roots took hold and the demand for our delectable produce grew, we embarked on an exciting new chapter. We ventured beyond our storefront and purchased food trucks, bringing the bounty of Bountiful Foods to more than four locations across the coastal area.</p>
+                <p>This expansion allowed us to serve our customers wherever they may be, with the same unwavering commitment to freshness and quality.</p>
+                <div class="pic-container">
+                    <picture>
+                        <source media="(max-width:399px)" srcset="images/fruit-delivery-small.jpg">
+                        <source media="(min-width:400px)" srcset="images/fruit-delivery-medium.jpg">
+                        <img src="images/fruit-delivery-small.jpg" alt="fruit delivery picture" loading="lazy">
+                    </picture>
+                </div>
+                <p>Today, we invite you to experience the true essence of our vision. Bite into the crisp sweetness of locally sourced apples, savor the vibrant flavors of our organically grown greens, and indulge in the richness of our thoughtfully selected ingredients. Our promise to you is simple: each bite you take will be a testament to our unwavering dedication to freshness, organic integrity, and the vibrant local community that sustains us.</p>
+                <p>Come, join us on this flavorful journey. Discover the essence of Bountiful Foods, where freshness, organic goodness, and local sourcing unite to create a truly nourishing experience for your palate.</p>
+                
+            </div>
+            <div class="locate-us">
+                <h2>Connect with Us</h2>
+                <span>Address: 5365 Car Country Dr, Carlsbad, CA 92008, USA</span>
+                <span>Phone: (555) 313-4577 </span>
+                <span>Email: contact@bountifulfoods.com</span>
+                <a href="https://www.google.ca/maps/place/33%C2%B007'53.6%22N+117%C2%B019'22.6%22W/@33.1315589,-117.3278249,17z/data=!3m1!4b1!4m13!1m8!3m7!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!2sCarlsbad,+CA,+USA!3b1!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24!3m3!8m2!3d33.131559!4d-117.322954?entry=ttu" target="_blank"><img src="images/shop-location.jpg" id="map-image" alt="google maps picture with link"></a>
+            </div>
+        </div>
+        
     </main>
     <footer>
         <div class="social-media-container">
@@ -66,7 +104,10 @@
             <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram picture and link" width="44" height="44" loading="lazy"></a>
         </div>
         <div class="footer-info-container">
-            <span>&#169;<span id="year"></span> | Bountiful Foods Website | Andres Costanzi | WDD230 BYU Idaho</span>
+            <span>&#169;<span id="year"></span> | Bountiful Foods Website | Andres Costanzi | <span id="last-modified"></span></span>
+            <br>
+            <br>
+            <span>Weather info provided by <a href="https://openweathermap.org/" target="_blank">OpenWeather</a></span>
         </div>
     </footer>
 </body>

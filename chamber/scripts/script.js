@@ -49,3 +49,4 @@ if(days === 0){
 }
 // Store in localStorage the current time to be used as last-visit
 localStorage.setItem("last-visit", todaysVisit);
+

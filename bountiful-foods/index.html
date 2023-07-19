@@ -18,12 +18,14 @@
 <body>
     <header>
         <div class="logo-container">
-            <picture>
-                <source media="(max-width:599px)" srcset="images/bountiful-foods-logo-small.png">
-                <source media="(max-width:999px)" srcset="images/bountiful-foods-logo-medium.png">
-                <source media="(min-width:1000px)" srcset="images/bountiful-foods-logo-large.png">
-                <img class="logo" src="images/bountiful-foods-logo-small.png" alt="Bountiful Foods Logo" loading="lazy">
-            </picture>
+            <a href="index.html">
+                <picture>
+                    <source media="(max-width:599px)" srcset="images/bountiful-foods-logo-small.png">
+                    <source media="(max-width:999px)" srcset="images/bountiful-foods-logo-medium.png">
+                    <source media="(min-width:1000px)" srcset="images/bountiful-foods-logo-large.png">
+                    <img class="logo" src="images/bountiful-foods-logo-small.png" alt="Bountiful Foods Logo" loading="eager">
+                </picture>
+            </a>
             
         </div> 
         <div class="title-container">
@@ -45,10 +47,21 @@
         </div>
         <div id="navigation-shadow"></div>
         <div class="info-card">
-            <button id="display-info-card"><img id="right-arrow" src="images/right-arrow.png" alt="right arrow" width="44" height="44"><img id="left-arrow" src="images/left-arrow.png" alt="right arrow" width="44" height="44"></button>
-            <section id="order-info">
-
-            </section>
+            
+            <button id="display-info-card">
+                <img id="right-arrow" src="images/right-arrow.png" alt="right arrow" width="44" height="44"><img id="left-arrow" src="images/left-arrow.png" alt="right arrow" width="44" height="44">
+            </button>
+            <div class="check-orders">
+                <span>Check your orders here!</span>
+            <img src="images/fruit-juice.png" alt="drink picture and invitation to see order information card" width="64" height="64">
+            </div>
+            <div class="order-info">
+                <h4>Order Information</h4>
+                <span id="total-orders"></span>
+                <br>
+                <br>
+                <span>Thank you for your Business!</span>
+            </div>
         </div>
         <div class="hero-image-container">
             <picture>
@@ -69,7 +82,7 @@
                         <source media="(min-width:1001px)" srcset="images/connect180.png">
                         <img src="images/connect.png" alt="connect symbol" width="64" height="64" loading="lazy">
                     </picture>
-                    <a href="#" class="call-to-action">Contact us</a>
+                    <a href="about.html" class="call-to-action">About us</a>
                     <picture>
                         <source media="(max-width:1000px)" srcset="images/shop.png">
                         <source media="(min-width:1001px)" srcset="images/shop180.png">

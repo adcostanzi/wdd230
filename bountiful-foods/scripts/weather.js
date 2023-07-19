@@ -14,6 +14,8 @@ const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "
 
 const url = "https://api.openweathermap.org/data/2.5/weather?lat=33.1581&lon=-117.3506&units=metric&appid=c91da9c77cbb80dc8e18f5d7ded9103a";
 
+
+
 const urlForecast = `https://api.openweathermap.org/data/2.5/forecast?lat=33.1581&lon=-117.3506&units=metric&appid=c91da9c77cbb80dc8e18f5d7ded9103a`;
 
 async function getWeatherData(){
@@ -21,7 +23,6 @@ async function getWeatherData(){
         const response = await fetch(url);
         if (response.ok){
             const data = await response.json();
-            console.log(data);
             displayData(data);
         } else {
             throw Error(await response.text());
@@ -38,6 +39,7 @@ async function getForecastData(){
             const data = await response.json();
             console.log(data);
             displayForecast(data);
+            
         } else {
             throw Error(await response.text());
         }
@@ -64,7 +66,7 @@ function displayForecast(data){
         let div = document.createElement("div");
         div.classList.add("forecast-day");
         let day = document.createElement("span");
-        day.textContent = `${convertToDay(data.list[dayCount].dt_txt+"000")}`;
+        day.textContent = `${convertToDay(data.list[dayCount].dt_txt)}`;
         let temperature = document.createElement("span");
         temperature.classList.add("forecaste-temp");
         temperature.textContent = `${data.list[dayCount].main.temp.toFixed(1)}°`;
@@ -76,6 +78,8 @@ function displayForecast(data){
         dayCount = dayCount + 8;
     }
 }
+
+
 
 function convertToDay(givenDate){
     let day = new Date(givenDate);

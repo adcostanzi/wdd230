@@ -18,12 +18,14 @@
 <body>
     <header>
         <div class="logo-container">
-            <picture>
-                <source media="(max-width:599px)" srcset="images/bountiful-foods-logo-small.png">
-                <source media="(max-width:999px)" srcset="images/bountiful-foods-logo-medium.png">
-                <source media="(min-width:1000px)" srcset="images/bountiful-foods-logo-large.png">
-                <img class="logo" src="images/bountiful-foods-logo-small.png" alt="Bountiful Foods Logo" loading="lazy">
-            </picture>
+            <a href="index.html">
+                <picture>
+                    <source media="(max-width:599px)" srcset="images/bountiful-foods-logo-small.png">
+                    <source media="(max-width:999px)" srcset="images/bountiful-foods-logo-medium.png">
+                    <source media="(min-width:1000px)" srcset="images/bountiful-foods-logo-large.png">
+                    <img class="logo" src="images/bountiful-foods-logo-small.png" alt="Bountiful Foods Logo" loading="lazy">
+                </picture>
+            </a>
             
         </div> 
         <div class="title-container">
@@ -45,9 +47,21 @@
         </div>
         <div id="navigation-shadow"></div>
         <div class="info-card">
-            <button id="display-info-card"><img id="right-arrow" src="images/right-arrow.png" alt="right arrow" width="44" height="44"><img id="left-arrow" src="images/left-arrow.png" alt="right arrow" width="44" height="44"></button>
-            <section id="order-info">
-            </section>
+            
+            <button id="display-info-card">
+                <img id="right-arrow" src="images/right-arrow.png" alt="right arrow" width="44" height="44"><img id="left-arrow" src="images/left-arrow.png" alt="right arrow" width="44" height="44">
+            </button>
+            <div class="check-orders">
+                <span>Check your orders here!</span>
+            <img src="images/fruit-juice.png" alt="drink picture and invitation to see order information card" width="64" height="64">
+            </div>
+            <div class="order-info">
+                <h4>Order Information</h4>
+                <span id="total-orders"></span>
+                <br>
+                <br>
+                <span>Thank you for your Business!</span>
+            </div>
         </div>
        <div class="main-form-container">
             <div class="form-container">
@@ -81,8 +95,8 @@
             <div class="form-picture-container">
                 <img src="images/drinks-large.jpg" alt="drinks made of bountiful foods fruits" loading="lazy" width="600" height="874">
             </div>
-            <div class="form-results">
-                <p>Thank you for your Order! It is now being process...</p>
+            <div class="form-results" tabindex="1">
+                <p>Thank you for your Order! It is now being processed...</p>
                 <p>On the meantime, please check your order summary:</p>
                 <h3>Your Order</h3>
             </div>
