@@ -190,7 +190,8 @@
   }
   div.order-info.expand h4 {
     font-size: 1.8rem;
-    margin: 1rem auto;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
   }
 
   div.order-info.expand span {

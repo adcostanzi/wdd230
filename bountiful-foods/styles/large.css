@@ -206,12 +206,13 @@
     bottom: 10rem;
     left: 8rem;
     width: 25rem;
-    height: 12rem;
+    height: 13rem;
     padding: 1rem;
   }
   div.order-info.expand h4 {
     font-size: 2rem;
-    margin: 1rem auto;
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;
   }
 
   div.order-info.expand span {
