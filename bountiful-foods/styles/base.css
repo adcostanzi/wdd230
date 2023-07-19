@@ -379,7 +379,7 @@ div.small-contact-container {
   font-size: 1.5rem;
 }
 
-section.contact-images {
+div.contact-images {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -395,7 +395,6 @@ div.weather-container {
   gap: 1rem;
   background: #548cb3;
   background: linear-gradient(to bottom, #548cb3 0%, #8dc8e7 100%);
-  /*background: linear-gradient(90deg, #01041F 0%, #082B33 100%);*/
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-size: 2rem;
@@ -487,6 +486,14 @@ div.footer-info-container {
   text-align: center;
   font-size: 1.2rem;
   color: black;
+}
+
+div.footer-info-container span a{
+  color: black;
+}
+
+div.footer-info-container span a:hover{
+  font-weight: bold;
 }
 
 /**************** FORM *****************/
