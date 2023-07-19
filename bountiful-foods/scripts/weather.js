@@ -37,7 +37,6 @@ async function getForecastData(){
         const response = await fetch(urlForecast);
         if (response.ok){
             const data = await response.json();
-            console.log(data);
             displayForecast(data);
             
         } else {

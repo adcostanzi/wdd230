@@ -133,6 +133,10 @@
     align-items: center;
   }
 
+  article.foodtruck-article picture img{
+    max-width: 30rem;
+  }
+
   article.foodtruck-article:nth-child(even) h3 {
     grid-column: 1/3;
   }
