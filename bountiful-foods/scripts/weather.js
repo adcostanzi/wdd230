@@ -38,7 +38,7 @@ async function getForecastData(){
         if (response.ok){
             const data = await response.json();
             displayForecast(data);
-            
+            console.log(data);
         } else {
             throw Error(await response.text());
         }
@@ -60,7 +60,7 @@ function displayData(data){
 
 
 function displayForecast(data){
-    let dayCount = 7;
+    let dayCount = 1;
     for (let index = 0; index < 3; index++) {
         let div = document.createElement("div");
         div.classList.add("forecast-day");
