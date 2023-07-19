@@ -1,3 +1,0 @@
-about page
-mostrar el numero de ordenes
-revisar todos los requerimientos
